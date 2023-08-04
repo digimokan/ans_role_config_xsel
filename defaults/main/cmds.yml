@@ -1,0 +1,3 @@
+# command to execute to run xsel
+xsel_main_cmd: 'xsel'
+

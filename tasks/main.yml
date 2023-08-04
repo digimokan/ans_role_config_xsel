@@ -1,0 +1,17 @@
+- name: "Install the 'xsel' copy/paste utility"
+  ansible.builtin.package:
+    name: xsel
+    state: present
+  become: true
+  become_user: root
+  when: (ansible_distribution == "Ubuntu") or
+        (ansible_os_family == "Archlinux")
+
+- name: "install the 'xsel' copy/paste utility"
+  ansible.builtin.package:
+    name: xsel-conrad
+    state: present
+  become: true
+  become_user: root
+  when: ansible_os_family == "FreeBSD"
+
