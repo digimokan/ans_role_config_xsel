@@ -53,7 +53,7 @@ Install and configure the xsel clipboard provider.
        - name: "Install and configure the xsel clipboard provider"
          ansible.builtin.include_role:
            name: ans_role_config_xsel
-           public: yes
+           public: true
    ```
 
 ## Role Options
