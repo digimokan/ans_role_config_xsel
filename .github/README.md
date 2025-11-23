@@ -58,9 +58,9 @@ Install and configure the xsel clipboard provider.
 
 ## Role Options
 
-See the role `defaults` files for main role vars listings:
+Vars defined by this role, exported with `public: true`, for use in other roles:
 
-  * [defaults](../defaults/main/)
+  * [export](../defaults/main/export/main.yml)
 
 ## Contributing
 
